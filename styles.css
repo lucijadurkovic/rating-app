@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  color: white;
+  background-color: #121417;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #rating,
+body #thankYou {
+  background-color: #252d37;
+  width: 25%;
+  height: width;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+@media (max-width: 375px) {
+  body #rating,
+  body #thankYou {
+    width: 90%;
+  }
+}
+
+body #rating #star,
+body #thankYou #star {
+  background-color: #121417;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 100px;
+}
+
+body #thankYou {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #thankYou p {
+  text-align: center;
+}
+
+body #thankYou h2 {
+  background-color: #121417;
+  color: #fb7413;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  font-size: 15px;
+}
+
+body #thankYou img {
+  height: 80px;
+}
+
+body ol {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10px 0px;
+}
+
+body ol li {
+  background-color: #121417;
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+  border-radius: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body ol li:hover {
+  background-color: #fb7413;
+}
+
+body button {
+  background-color: #fb7413;
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  padding: 8px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+body button:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+body p {
+  font-size: 15px;
+  color: #7c8798;
+}
+/*# sourceMappingURL=styles.css.map */
